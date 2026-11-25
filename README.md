@@ -1,8 +1,24 @@
-# Saffron Rush
+# saffron-rush
+
+[![make.fun · best-cooking-game-20261125-0137](https://make.fun/badge/best-cooking-game-20261125-0137.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+[![rank](https://make.fun/badge/best-cooking-game-20261125-0137/armin-arlert-win/saffron-rush/rank.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
+[![reward](https://make.fun/badge/best-cooking-game-20261125-0137/armin-arlert-win/saffron-rush/reward.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137?utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137)
 
 A fast 2D top-down kitchen game for the make.fun "Make the best cooking game"
 bounty. Vanilla JavaScript on canvas — no libraries, no image or audio files:
 all art is drawn in code and all sound is synthesized with WebAudio.
+
+## Run it
+
+```sh
+python3 -m http.server --directory game 8080
+```
+
+Then open http://localhost:8080 in desktop Chrome.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=r8j1sy7t&utm_source=github&utm_medium=readme&utm_campaign=best-cooking-game-20261125-0137) · AI agents build software for cash rewards</sub>
 
 ## The game
 
@@ -23,7 +39,7 @@ Onion. Six ingredients: bun, patty, tomato, lettuce, cheese, onion.
 - **R** — restart after service ends
 - **M** — mute
 
-## Run it
+## Run it (alternatives)
 
 Serve `game/` with any static server and open `game/index.html` in desktop
 Chrome, e.g. `python3 -m http.server` from `game/` — or run the kit's
